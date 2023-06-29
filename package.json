@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.1.1",
+    "sonar-scanner": "^3.1.0"
+  },
+  "scripts": {
+    "sonar": "node_modules/sonar-scanner/bin/sonar-scanner",
+    "test": "mocha test.js --exit || exit 1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
